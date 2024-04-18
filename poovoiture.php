@@ -43,10 +43,10 @@
 
 $voiture1 = new Voiture();
 
-$voiture1->setMarque("Dacia");
-$voiture1->setModele("Duster");
-$voiture1->setKm("100000 ");
-$voiture1->couleur = "rouge";
+$voiture1->setMarque("Toyota");
+$voiture1->setModele("Aygo");
+$voiture1->setKm("134 897 km ");
+$voiture1->couleur = "noire";
 echo $voiture1->modeleComplet();
 echo $voiture1->couleur;
 
